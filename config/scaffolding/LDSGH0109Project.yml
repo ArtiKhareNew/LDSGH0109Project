@@ -3,11 +3,16 @@ info:
   model: int-scaffold
 packages:
 - name: LDSGH0109Project
-  gitServerName: src_shared_GithubCtrl_Arti
+  gitServerName: bearerTokenArti_githubEnt_shared
   gitUrl: https://github.com/ArtiKhareNew
-  gitUsername: ArtiKhareNew
+  gitUsername: Arti-Khare
   gitBranch: main
 - name: OpenWeatherClient
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
+- name: MultiplyPublicService
+  gitServerName: srcCtrl_shared_bitbucket_Arti
+  gitUrl: https://bitbucket.org/testartiibm
+  gitUsername: artikhare
+  gitBranch: master
